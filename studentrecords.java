@@ -142,7 +142,7 @@ public class studentrecords {
      System.out.println("Verify first to proceed to records summary (type > I AM NOT A ROBOT) >>");
        
      do {
-     a.nextLine
+     a.nextLine();
      System.out.print("Code: ");
      code = a.nextLine();
      if (!code.equals("I AM NOT A ROBOT")) { 
